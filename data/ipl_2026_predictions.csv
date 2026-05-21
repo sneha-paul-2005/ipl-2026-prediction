@@ -1,11 +1,11 @@
-Team,Score
-Royal Challengers Bengaluru,0.7336
-Rajasthan Royals,0.5583
-Delhi Capitals,0.4581
-Punjab Kings,0.449
-Gujarat Titans,0.406
-Mumbai Indians,0.2881
-Sunrisers Hyderabad,0.2337
-Lucknow Super Giants,0.202
-Kolkata Knight Riders,0.1882
-Chennai Super Kings,0.12
+team,abbr,points,nrr,recent_form,prediction_score
+Royal Challengers Bengaluru,RCB,18,1.065,LLWWW,77.54
+Gujarat Titans,GT,16,0.4,WWWWL,63.39
+Sunrisers Hyderabad,SRH,16,0.35,WLWLW,61.54
+Kolkata Knight Riders,KKR,13,0.011,WWLWW,55.11
+Rajasthan Royals,RR,14,0.083,WLLLW,50.16
+Chennai Super Kings,CSK,12,-0.016,WWWLL,44.52
+Punjab Kings,PBKS,13,0.227,LLLLL,41.34
+Delhi Capitals,DC,12,-0.871,WLLWW,41.03
+Mumbai Indians,MI,8,-0.51,LWLWL,30.19
+Lucknow Super Giants,LSG,8,-0.702,LWLWL,28.21

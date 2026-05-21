@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>IPL 2026 Prediction</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f6f8;
+            margin: 40px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #222;
+        }
+
+        .winner {
+            background: white;
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 700px;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        table {
+            width: 90%;
+            margin: 30px auto;
+            border-collapse: collapse;
+            background: white;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        th, td {
+            padding: 12px;
+            border-bottom: 1px solid #ddd;
+            text-align: center;
+        }
+
+        th {
+            background: #222;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>IPL 2026 Winner Prediction</h1>
+
+    <div class="winner">
+        <h2 id="winner">Loading...</h2>
+        <p>Based on points, win rate, NRR, and recent form.</p>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Rank</th>
+                <th>Team</th>
+                <th>Short Name</th>
+                <th>Points</th>
+                <th>NRR</th>
+                <th>Recent Form</th>
+                <th>Prediction Score</th>
+            </tr>
+        </thead>
+        <tbody id="table-body"></tbody>
+    </table>
+
+    <script>
+        fetch("predictions.json")
+            .then(response => response.json())
+            .then(data => {
+                const tableBody = document.getElementById("table-body");
+                const winner = document.getElementById("winner");
+
+                winner.innerText = "Predicted Winner: " + data[0].team;
+
+                data.forEach((team, index) => {
+                    const row = `
+                        <tr>
+                            <td>${index + 1}</td>
+                            <td>${team.team}</td>
+                            <td>${team.abbr}</td>
+                            <td>${team.points}</td>
+                            <td>${team.nrr}</td>
+                            <td>${team.recent_form}</td>
+                            <td>${team.prediction_score}</td>
+                        </tr>
+                    `;
+                    tableBody.innerHTML += row;
+                });
+            });
+    </script>
+
+</body>
+</html>

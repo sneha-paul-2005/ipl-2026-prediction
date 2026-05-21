@@ -1,0 +1,82 @@
+[
+  {
+    "team": "Royal Challengers Bengaluru",
+    "abbr": "RCB",
+    "points": 18,
+    "nrr": 1.065,
+    "recent_form": "LLWWW",
+    "prediction_score": 77.54
+  },
+  {
+    "team": "Gujarat Titans",
+    "abbr": "GT",
+    "points": 16,
+    "nrr": 0.4,
+    "recent_form": "WWWWL",
+    "prediction_score": 63.39
+  },
+  {
+    "team": "Sunrisers Hyderabad",
+    "abbr": "SRH",
+    "points": 16,
+    "nrr": 0.35,
+    "recent_form": "WLWLW",
+    "prediction_score": 61.54
+  },
+  {
+    "team": "Kolkata Knight Riders",
+    "abbr": "KKR",
+    "points": 13,
+    "nrr": 0.011,
+    "recent_form": "WWLWW",
+    "prediction_score": 55.11
+  },
+  {
+    "team": "Rajasthan Royals",
+    "abbr": "RR",
+    "points": 14,
+    "nrr": 0.083,
+    "recent_form": "WLLLW",
+    "prediction_score": 50.16
+  },
+  {
+    "team": "Chennai Super Kings",
+    "abbr": "CSK",
+    "points": 12,
+    "nrr": -0.016,
+    "recent_form": "WWWLL",
+    "prediction_score": 44.52
+  },
+  {
+    "team": "Punjab Kings",
+    "abbr": "PBKS",
+    "points": 13,
+    "nrr": 0.227,
+    "recent_form": "LLLLL",
+    "prediction_score": 41.34
+  },
+  {
+    "team": "Delhi Capitals",
+    "abbr": "DC",
+    "points": 12,
+    "nrr": -0.871,
+    "recent_form": "WLLWW",
+    "prediction_score": 41.03
+  },
+  {
+    "team": "Mumbai Indians",
+    "abbr": "MI",
+    "points": 8,
+    "nrr": -0.51,
+    "recent_form": "LWLWL",
+    "prediction_score": 30.19
+  },
+  {
+    "team": "Lucknow Super Giants",
+    "abbr": "LSG",
+    "points": 8,
+    "nrr": -0.702,
+    "recent_form": "LWLWL",
+    "prediction_score": 28.21
+  }
+]
